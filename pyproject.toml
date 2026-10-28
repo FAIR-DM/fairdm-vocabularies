@@ -1,0 +1,30 @@
+[project]
+name = "fairdm-vocabularies"
+# The release version is the tag the Publish workflow creates (<year>.<release>), not this
+# field. It is required by the [project] table and never changes.
+version = "0"
+description = "SKOS vocabularies for the metadata terms FairDM research data portals store."
+readme = "README.md"
+license = "CC-BY-4.0 AND MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Sam Jennings", email = "samuel.scott.jennings@gmail.com" }]
+dependencies = ["rdflib>=7.1"]
+
+[dependency-groups]
+dev = ["pytest>=8", "pre-commit>=4"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+# rdflib's JSON-LD parser uses its own deprecated ConjunctiveGraph.
+filterwarnings = ["ignore:ConjunctiveGraph is deprecated:DeprecationWarning"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

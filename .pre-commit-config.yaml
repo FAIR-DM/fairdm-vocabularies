@@ -1,0 +1,21 @@
+# The files under vocabularies/ are kept in rdflib's own layout by
+# scripts/build_vocabularies.py, so the whitespace hooks leave them alone.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: "^vocabularies/"
+      - id: end-of-file-fixer
+        exclude: "^vocabularies/"
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-case-conflict
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.2
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
