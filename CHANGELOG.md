@@ -18,5 +18,7 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 - Every concept records the value FairDM stored for it as its `skos:notation`.
 - Identifier types link to the identifier schemes of the DataCite Ontology
   (`http://purl.org/spar/datacite/`).
+- A documentation site, with a page for every vocabulary, concept and collection, and its
+  RDF in every format beside it.
 - Checks that run on every pull request, and a Publish workflow that attaches every vocabulary
   in Turtle, RDF/XML, JSON-LD and N-Triples to each release.
