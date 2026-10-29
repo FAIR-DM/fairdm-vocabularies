@@ -34,8 +34,9 @@ pull request. Docstrings and comments follow
 follows [`docs/contributing/standards/documentation.md`](docs/contributing/standards/documentation.md).
 
 ### Article VII — Dependency discipline
-A new dependency needs a stated reason. The repository depends on rdflib, and on pytest and
-pre-commit for development, and nothing else today.
+A new dependency needs a stated reason. The vocabularies depend on rdflib and nothing else.
+Development uses pytest and pre-commit, and the documentation site uses sphinx-skos, in the
+`docs` dependency group.
 
 ## Project articles
 
@@ -72,7 +73,9 @@ what the concept means may not.
 
 ### Article XIII — Stack
 Python 3.12 or later, managed with uv. rdflib reads and writes every file. pytest runs the
-checks, and pre-commit runs the linters. CI is this repository's own workflow.
+checks, and pre-commit runs the linters. sphinx-skos builds the documentation site,
+with a page for every vocabulary, concept and collection. CI is this repository's own
+workflow.
 
 ### Article XIV — Stored values are permanent
 Every concept has exactly one `skos:notation`: the value FairDM stored for it before it had a
@@ -107,4 +110,4 @@ Read at review; applies to every change.
 
 ---
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-28 | **Last Amended**: 2026-10-28
+**Version**: 1.1.0 | **Ratified**: 2026-10-28 | **Last Amended**: 2026-10-28

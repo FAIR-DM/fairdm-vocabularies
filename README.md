@@ -155,6 +155,7 @@ vocabularies/          the vocabularies, one Turtle file each: the only files ed
 scripts/
   build_vocabularies.py  rewrites the Turtle files in their fixed layout, and exports them
 tests/                 the checks every vocabulary must pass
+docs/                  the documentation site: its settings and its own pages
 .github/workflows/
   checks.yml           runs the checks on every pull request
   publish.yml          creates a release and attaches its files
@@ -186,11 +187,27 @@ meaning. The checks run on every pull request and confirm that every file parses
 - `skos:broader`, `skos:narrower` and `skos:related` are stated in both directions, and the top concepts are exactly those with no broader concept
 - stored values in `skos:notation` are unique within a vocabulary
 - every vocabulary can be written in every release format without losing anything
+- the documentation site builds without warnings and its front page lists every vocabulary
 
 The rules behind these checks are in
 [`CONSTITUTION.md`](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/CONSTITUTION.md), and
 the words used for the parts of a vocabulary are in
 [`CONTEXT.md`](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/CONTEXT.md).
+
+### How the documentation site is built
+
+The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), set up in the
+`[tool.sphinx-skos]` table of `pyproject.toml`. It writes a page for every vocabulary, concept
+and collection under `vocabularies/`, at its URI with `https://w3id.org/fairdm/vocabularies/`
+removed, and its RDF beside it. Those pages are written into `docs/vocabularies/` on every build
+and are not committed. The front page, `docs/index.rst`, is the only page kept in `docs/`. A new
+vocabulary in `vocabularies/` is listed on the site without any other change.
+
+```bash
+uv run sphinx-skos build -W
+```
+
+The site is written to `_build/site`.
 
 ### How releases are made
 
