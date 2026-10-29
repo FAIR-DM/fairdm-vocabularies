@@ -31,24 +31,7 @@ coverage.xml
 # Release archives
 dist/
 
-# The documentation site's build, and the pages it writes for every vocabulary,
-# concept and collection at each one's address
-docs/_build/
-docs/contributor-roles.rst
-docs/contributor-roles/
-docs/date-types.rst
-docs/date-types/
-docs/description-types.rst
-docs/description-types/
-docs/identifier-types.rst
-docs/identifier-types/
-docs/organization-types.rst
-docs/organization-types/
-docs/project-status.rst
-docs/project-status/
-docs/relation-types.rst
-docs/relation-types/
-docs/sample-relation-types.rst
-docs/sample-relation-types/
-docs/sample-status.rst
-docs/sample-status/
+# The documentation site's build, and the pages it writes for every vocabulary, concept and
+# collection
+_build/
+docs/vocabularies/

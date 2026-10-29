@@ -196,17 +196,18 @@ the words used for the parts of a vocabulary are in
 
 ### How the documentation site is built
 
-The site in `docs/` is built with [Sphinx](https://www.sphinx-doc.org/) and
-[sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), which writes a page for every
-vocabulary, concept and collection, at its URI with `https://w3id.org/fairdm/vocabularies/`
-removed, and its RDF beside it. Those pages are written on every build and are not committed.
-The front page and the how-to guides are the only pages kept in `docs/`. A new vocabulary is
-added to the list on the front page, `docs/index.rst`, and its two generated paths to
-`.gitignore`.
+The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), set up in the
+`[tool.sphinx-skos]` table of `pyproject.toml`. It writes a page for every vocabulary, concept
+and collection under `vocabularies/`, at its URI with `https://w3id.org/fairdm/vocabularies/`
+removed, and its RDF beside it. Those pages are written into `docs/vocabularies/` on every build
+and are not committed. The front page, `docs/index.rst`, is the only page kept in `docs/`. A new
+vocabulary in `vocabularies/` is listed on the site without any other change.
 
 ```bash
-uv run sphinx-build -W -b dirhtml docs docs/_build/dirhtml
+uv run sphinx-skos build -W
 ```
+
+The site is written to `_build/site`.
 
 ### How releases are made
 

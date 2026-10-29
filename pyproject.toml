@@ -12,11 +12,7 @@ dependencies = ["rdflib>=7.1"]
 
 [dependency-groups]
 dev = ["pytest>=8", "pre-commit>=4"]
-docs = [
-    "furo>=2025.12.19",
-    "sphinx>=9",
-    "sphinx-skos>=0.3.3",
-]
+docs = ["sphinx-skos>=0.4.0"]
 
 [tool.uv]
 package = false
@@ -35,3 +31,9 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+
+[tool.sphinx-skos]
+title = "FairDM Vocabularies"
+base-uri = "https://w3id.org/fairdm/vocabularies/"
+vocabularies = ["vocabularies/*.ttl"]
+logo = "docs/_static/fairdm-logo.svg"
