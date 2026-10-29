@@ -25,7 +25,7 @@ class TestSite:
         assert status == 0
 
     @pytest.mark.parametrize("source", SOURCES, ids=[path.stem for path in SOURCES])
-    def test_vocabularies_page_links_to_the_vocabulary(self, site, source):
+    def test_catalogue_page_links_to_the_vocabulary(self, site, source):
         status, output = site
-        page = (output / "vocabularies" / "index.html").read_text(encoding="utf-8")
+        page = (output / "catalogue" / "index.html").read_text(encoding="utf-8")
         assert f'href="{source.stem}/"' in page

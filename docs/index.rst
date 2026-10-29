@@ -43,4 +43,4 @@ asks for credit wherever the vocabularies are reused.
    :hidden:
 
    Home <self>
-   vocabularies/index
+   catalogue/index

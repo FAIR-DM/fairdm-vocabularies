@@ -198,8 +198,8 @@ the words used for the parts of a vocabulary are in
 
 The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), set up in the
 `[tool.sphinx-skos]` table of `pyproject.toml`. It writes a page for every vocabulary, concept
-and collection under `vocabularies/`, at its URI with `https://w3id.org/fairdm/vocabularies/`
-removed, and its RDF beside it. Those pages are written into `docs/vocabularies/` on every build
+and collection under `catalogue/`, at its URI with `https://w3id.org/fairdm/vocabularies/`
+removed, and its RDF beside it. Those pages are written into `docs/catalogue/` on every build
 and are not committed. The front page, `docs/index.rst`, is the only page kept in `docs/`. A new
 vocabulary in `vocabularies/` is listed on the site without any other change.
 
