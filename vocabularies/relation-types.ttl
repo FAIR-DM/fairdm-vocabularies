@@ -24,7 +24,7 @@ fairdm:relation-types
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher <https://www.fairdm.org/> ;
     dcterms:source <https://doi.org/10.14454/3w3z-sa82> ;
-    rdfs:seeAlso <https://github.com/FAIR-DM/fairdm-vocabularies> ;
+    rdfs:seeAlso <https://github.com/FAIR-DM/skos-vocabularies> ;
     skos:hasTopConcept
         :cites ,
         :compiles ,
