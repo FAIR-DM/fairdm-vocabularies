@@ -272,7 +272,7 @@ dev = [
 docs = [
     { name = "furo", specifier = ">=2025.12.19" },
     { name = "sphinx", specifier = ">=9" },
-    { name = "sphinx-skos", specifier = ">=0.3.1" },
+    { name = "sphinx-skos", specifier = ">=0.3.3" },
 ]
 
 [[package]]
@@ -737,7 +737,7 @@ wheels = [
 
 [[package]]
 name = "sphinx-skos"
-version = "0.3.1"
+version = "0.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils", version = "0.22.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
@@ -746,9 +746,9 @@ dependencies = [
     { name = "sphinx", version = "9.1.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
     { name = "sphinx", version = "9.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6e/89/d00af50452fcdbfe32b42e9456292d28dd174863b3815f156a035afb5c99/sphinx_skos-0.3.1.tar.gz", hash = "sha256:006ca84cd779aa1390591dbdf4d195c713dc24c87cc96134f87e8b2214dbe579", size = 18134, upload-time = "2026-10-28T13:55:15.877Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/04/9b928c48ae059e208aad7a70dbc284922171d00fedb65eaded998b4708c8/sphinx_skos-0.3.3.tar.gz", hash = "sha256:8dc9609ee77ad473cae17c443a10b08f1b594ca8fd05d7f170d702aa5769431a", size = 18508, upload-time = "2026-10-29T08:55:31.391Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8b/69/6578b6459f6649a66a72390c889c20de9de693cceb17b7bef635755e47cc/sphinx_skos-0.3.1-py3-none-any.whl", hash = "sha256:6a5a273f83995a2498ddaa8ca9d198826bdaf299296e8b1b76e6bebeef921e75", size = 20843, upload-time = "2026-10-28T13:55:14.691Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/30/f7ced5d64b54e5e751214f3ea04be98dd7647ff206efa2a88f2f629a964f/sphinx_skos-0.3.3-py3-none-any.whl", hash = "sha256:cd9fe6c370ce80dc43d6f2e37d49a71f90f7ae4918dd1fc48e6b5637692a1656", size = 21221, upload-time = "2026-10-29T08:55:30.154Z" },
 ]
 
 [[package]]
