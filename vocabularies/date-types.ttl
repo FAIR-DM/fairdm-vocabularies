@@ -19,7 +19,7 @@ fairdm:date-types
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher <https://www.fairdm.org/> ;
-    rdfs:seeAlso <https://github.com/FAIR-DM/fairdm-vocabularies> ;
+    rdfs:seeAlso <https://github.com/FAIR-DM/skos-vocabularies> ;
     skos:hasTopConcept
         :archival ,
         :available ,

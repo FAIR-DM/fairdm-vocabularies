@@ -24,7 +24,7 @@ fairdm:organization-types
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher <https://www.fairdm.org/> ;
     dcterms:source <https://ror.readme.io/docs/ror-data-structure> ;
-    rdfs:seeAlso <https://github.com/FAIR-DM/fairdm-vocabularies> ;
+    rdfs:seeAlso <https://github.com/FAIR-DM/skos-vocabularies> ;
     skos:hasTopConcept
         :archive ,
         :company ,

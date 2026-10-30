@@ -14,7 +14,7 @@ Turtle, JSON-LD, RDF/XML and N-Triples beside it. The vocabularies are released 
 <https://creativecommons.org/licenses/by/4.0/>`_.
 
 The source files, the release downloads and the changelog are in the `GitHub repository
-<https://github.com/FAIR-DM/fairdm-vocabularies>`_.
+<https://github.com/FAIR-DM/skos-vocabularies>`_.
 
 How to cite
 -----------
@@ -22,7 +22,7 @@ Cite a vocabulary when your data, software or paper uses its terms. The licence,
 asks for credit wherever the vocabularies are reused.
 
 1. Find the version you used. Versions are the `releases
-   <https://github.com/FAIR-DM/fairdm-vocabularies/releases>`_ of the repository, numbered
+   <https://github.com/FAIR-DM/skos-vocabularies/releases>`_ of the repository, numbered
    ``<year>.<release>``, such as ``2026.1``.
 
 2. Cite the vocabulary by its name, its version and its URI:

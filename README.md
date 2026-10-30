@@ -1,7 +1,7 @@
 # FairDM Vocabularies
 
-[![Checks](https://github.com/FAIR-DM/fairdm-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/FAIR-DM/fairdm-vocabularies/actions/workflows/checks.yml)
-[![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/LICENSE-CC-BY-4.0)
+[![Checks](https://github.com/FAIR-DM/skos-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/FAIR-DM/skos-vocabularies/actions/workflows/checks.yml)
+[![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/FAIR-DM/skos-vocabularies/blob/main/LICENSE-CC-BY-4.0)
 
 The FairDM Vocabularies are the controlled terms that [FairDM](https://github.com/FAIR-DM/fairdm)
 research data portals use for the metadata they store on projects, datasets, samples,
@@ -33,7 +33,7 @@ under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
 - **Name:** `contributor-roles`
 - **URI:** <https://w3id.org/fairdm/vocabularies/contributor-roles>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/contributor-roles.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/contributor-roles.ttl>
 
 Roles a person or organization can have in a project, dataset, sample or measurement.
 
@@ -41,7 +41,7 @@ Roles a person or organization can have in a project, dataset, sample or measure
 
 - **Name:** `date-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/date-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/date-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/date-types.ttl>
 
 Kinds of date recorded for projects, datasets, samples and measurements, such as when a dataset was published or a sample was collected.
 
@@ -49,7 +49,7 @@ Kinds of date recorded for projects, datasets, samples and measurements, such as
 
 - **Name:** `description-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/description-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/description-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/description-types.ttl>
 
 Kinds of description recorded for projects, datasets, samples and measurements, such as an abstract or the methods used.
 
@@ -57,7 +57,7 @@ Kinds of description recorded for projects, datasets, samples and measurements, 
 
 - **Name:** `identifier-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/identifier-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/identifier-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/identifier-types.ttl>
 
 Kinds of persistent identifier recorded for projects, datasets, samples, measurements, people and organizations.
 
@@ -65,7 +65,7 @@ Kinds of persistent identifier recorded for projects, datasets, samples, measure
 
 - **Name:** `organization-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/organization-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/organization-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/organization-types.ttl>
 
 The kind of institution an organization is, from the organization types of the Research Organization Registry (ROR).
 
@@ -73,7 +73,7 @@ The kind of institution an organization is, from the organization types of the R
 
 - **Name:** `project-status`
 - **URI:** <https://w3id.org/fairdm/vocabularies/project-status>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/project-status.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/project-status.ttl>
 
 The stages a research project moves through, from first idea to completion.
 
@@ -81,7 +81,7 @@ The stages a research project moves through, from first idea to completion.
 
 - **Name:** `relation-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/relation-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/relation-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/relation-types.ttl>
 
 How a resource relates to another resource, from the relation types of the DataCite Metadata Schema. In each definition, A is the resource being described and B is the related resource.
 
@@ -89,7 +89,7 @@ How a resource relates to another resource, from the relation types of the DataC
 
 - **Name:** `sample-relation-types`
 - **URI:** <https://w3id.org/fairdm/vocabularies/sample-relation-types>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/sample-relation-types.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/sample-relation-types.ttl>
 
 How one physical sample relates to another.
 
@@ -97,13 +97,13 @@ How one physical sample relates to another.
 
 - **Name:** `sample-status`
 - **URI:** <https://w3id.org/fairdm/vocabularies/sample-status>
-- **Source:** <https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/vocabularies/sample-status.ttl>
+- **Source:** <https://github.com/FAIR-DM/skos-vocabularies/blob/main/vocabularies/sample-status.ttl>
 
 The custody state of a physical sample: whether it is available, in use, stored, destroyed or unknown.
 
 ## Using the vocabularies
 
-Each [release](https://github.com/FAIR-DM/fairdm-vocabularies/releases) carries every vocabulary
+Each [release](https://github.com/FAIR-DM/skos-vocabularies/releases) carries every vocabulary
 in four formats, as separate files that differ only by extension:
 
 | Format | Extension |
@@ -116,7 +116,7 @@ in four formats, as separate files that differ only by extension:
 A link with `latest` always returns the file from the newest release:
 
 ```text
-https://github.com/FAIR-DM/fairdm-vocabularies/releases/latest/download/contributor-roles.ttl
+https://github.com/FAIR-DM/skos-vocabularies/releases/latest/download/contributor-roles.ttl
 ```
 
 Each release also carries `vocabularies-full.zip`: every vocabulary in every format, with this
@@ -127,7 +127,7 @@ Any RDF library can read the files. For example, with [rdflib](https://rdflib.re
 ```python
 from rdflib import Graph
 
-url = "https://github.com/FAIR-DM/fairdm-vocabularies/releases/latest/download/contributor-roles.ttl"
+url = "https://github.com/FAIR-DM/skos-vocabularies/releases/latest/download/contributor-roles.ttl"
 graph = Graph().parse(url, format="turtle")
 ```
 
@@ -190,9 +190,9 @@ meaning. The checks run on every pull request and confirm that every file parses
 - the documentation site builds without warnings and its front page lists every vocabulary
 
 The rules behind these checks are in
-[`CONSTITUTION.md`](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/CONSTITUTION.md), and
+[`CONSTITUTION.md`](https://github.com/FAIR-DM/skos-vocabularies/blob/main/CONSTITUTION.md), and
 the words used for the parts of a vocabulary are in
-[`CONTEXT.md`](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/CONTEXT.md).
+[`CONTEXT.md`](https://github.com/FAIR-DM/skos-vocabularies/blob/main/CONTEXT.md).
 
 ### How the documentation site is built
 
@@ -218,13 +218,13 @@ from `CHANGELOG.md`. It then exports every vocabulary into every format and atta
 the release archive.
 
 What changed in each release is recorded in
-[`CHANGELOG.md`](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/CHANGELOG.md).
+[`CHANGELOG.md`](https://github.com/FAIR-DM/skos-vocabularies/blob/main/CHANGELOG.md).
 Changes waiting for the next release are listed under `[Unreleased]`.
 
 ## Contributing
 
 Suggestions and corrections are welcome. Please open an
-[issue](https://github.com/FAIR-DM/fairdm-vocabularies/issues) to discuss a change before opening
+[issue](https://github.com/FAIR-DM/skos-vocabularies/issues) to discuss a change before opening
 a pull request.
 
 ## Scope & philosophy
@@ -248,6 +248,6 @@ those itself.
 ## License
 
 The vocabularies, in `vocabularies/` and in every release archive, are licensed under the
-[Creative Commons Attribution 4.0 International License](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/LICENSE-CC-BY-4.0).
+[Creative Commons Attribution 4.0 International License](https://github.com/FAIR-DM/skos-vocabularies/blob/main/LICENSE-CC-BY-4.0).
 The script and tests are licensed under the
-[MIT License](https://github.com/FAIR-DM/fairdm-vocabularies/blob/main/LICENSE).
+[MIT License](https://github.com/FAIR-DM/skos-vocabularies/blob/main/LICENSE).
